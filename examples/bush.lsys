@@ -1,0 +1,8 @@
+# Weighted rules: each seed picks a different tree, and the same seed always repeats.
+name: Stochastic bush
+axiom: F
+angle: 25.7
+iterations: 4
+F (3) -> F[+F]F[-F]F
+F (1) -> F[+F]F
+F (1) -> F[-F]F

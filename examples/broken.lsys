@@ -1,0 +1,9 @@
+# Deliberately broken grammar, used to show lint output.
+name: broken
+axiom: F[+F
+angle: 25
+iterations: 2
+F -> F+F]-F
+G -> F-G
+F (0) -> F
+flip: yes

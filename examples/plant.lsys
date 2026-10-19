@@ -1,0 +1,6 @@
+name: Branching plant
+axiom: X
+angle: 25
+iterations: 5
+X -> F+[[X]-X]-F[-FX]+X
+F -> FF

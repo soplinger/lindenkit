@@ -1,0 +1,5 @@
+name: Koch snowflake edge
+axiom: F
+angle: 60
+iterations: 4
+F -> F+F--F+F
